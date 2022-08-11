@@ -2,7 +2,7 @@
 
 ## How to Build ?
 
-change ``` KAFKA_ADVERTISE_HOST_NAME ``` in ``` kafka/docker-compose.yaml ``` with your machine IP Address
+change ``` KAFKA_ADVERTISED_HOST_NAME ``` in ``` kafka/docker-compose.yaml ``` with your machine IP Address
 
 
 run ``` sudo docker-compose up -d ``` in each directory
