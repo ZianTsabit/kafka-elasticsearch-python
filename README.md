@@ -4,7 +4,7 @@
 
 change ``` KAFKA_ADVERTISED_HOST_NAME ``` in ``` kafka/docker-compose.yaml ``` with your machine IP Address
 
-change ``` bootstrap_servers ``` and ``` hosts ``` in ``` logstash/settings/logstash.conf ``` with your machine IP Address
+change ``` bootstrap_servers ``` and ``` hosts ``` in ``` logstash/pipeline/logstash.conf ``` with your machine IP Address
 
 run ``` sudo docker-compose up -d ``` in each directory
 
